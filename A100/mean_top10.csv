@@ -1,0 +1,327 @@
+id,source_neural_network,num_of_calls,parameters,running_time
+#0,yolov3_mobilenetv2_mstrain-416_300e_coco,36,"{'input_size': [[576]], 'dim': [], 'keepdim': []}",9.083747863769532e-06
+#1,yolov3_mobilenetv2_mstrain-416_300e_coco,30,"{'input_size': [[32]], 'dim': [], 'keepdim': []}",1.1987686157226563e-05
+#2,yolov3_mobilenetv2_mstrain-416_300e_coco,28,"{'input_size': [[96, 192, 1, 1]], 'dim': [], 'keepdim': []}",1.2195110321044922e-05
+#3,yolov3_mobilenetv2_mstrain-416_300e_coco,84,"{'input_size': [[192]], 'dim': [], 'keepdim': []}",9.276866912841796e-06
+#4,yolov3_mobilenetv2_mstrain-416_300e_coco,24,"{'input_size': [[192, 96, 3, 3]], 'dim': [], 'keepdim': []}",9.405612945556641e-06
+#5,yolov3_mobilenetv2_mstrain-416_300e_coco,24,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.1417865753173828e-05
+#6,yolov3_mobilenetv2_mstrain-416_300e_coco,126,"{'input_size': [[96]], 'dim': [], 'keepdim': []}",1.5437602996826172e-05
+#7,yolov3_mobilenetv2_mstrain-416_300e_coco,48,"{'input_size': [[384]], 'dim': [], 'keepdim': []}",9.28640365600586e-06
+#8,yolov3_mobilenetv2_mstrain-416_300e_coco,60,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.1651515960693359e-05
+#9,yolov3_mobilenetv2_mstrain-416_300e_coco,36,"{'input_size': [[960]], 'dim': [], 'keepdim': []}",9.279251098632813e-06
+#10,shufflenet-v2-1x_16xb64_cifar10,18,"{'input_size': [[232, 232, 1, 1]], 'dim': [], 'keepdim': []}",9.360313415527343e-06
+#11,shufflenet-v2-1x_16xb64_cifar10,10,"{'input_size': [[24]], 'dim': [], 'keepdim': []}",1.2102127075195312e-05
+#12,shufflenet-v2-1x_16xb64_cifar10,56,"{'input_size': [[232]], 'dim': [], 'keepdim': []}",1.3751983642578125e-05
+#13,shufflenet-v2-1x_16xb64_cifar10,10,"{'input_size': [[232, 1, 3, 3]], 'dim': [], 'keepdim': []}",9.393692016601562e-06
+#14,shufflenet-v2-1x_16xb64_cifar10,52,"{'input_size': [[58]], 'dim': [], 'keepdim': []}",1.2145042419433593e-05
+#15,shufflenet-v2-1x_16xb64_cifar10,8,"{'input_size': [[58, 1, 3, 3]], 'dim': [], 'keepdim': []}",9.355545043945313e-06
+#16,shufflenet-v2-1x_16xb64_cifar10,14,"{'input_size': [[58, 58, 1, 1]], 'dim': [], 'keepdim': []}",1.744270324707031e-05
+#17,shufflenet-v2-1x_16xb64_cifar10,18,"{'input_size': [[116, 1, 3, 3]], 'dim': [], 'keepdim': []}",1.1975765228271484e-05
+#18,shufflenet-v2-1x_16xb64_cifar10,104,"{'input_size': [[116]], 'dim': [], 'keepdim': []}",8.895397186279297e-06
+#19,shufflenet-v2-1x_16xb64_cifar10,34,"{'input_size': [[116, 116, 1, 1]], 'dim': [], 'keepdim': []}",9.241104125976562e-06
+#20,stgcn_80e_ntu60_xsub_keypoint,80,"{'input_size': [[16, 2, 256, 1, 1]], 'dim': [], 'keepdim': []}",1.205921173095703e-05
+#21,stgcn_80e_ntu60_xsub_keypoint,240,"{'input_size': [[]], 'dim': [], 'keepdim': []}",8.966922760009765e-06
+#22,hrnet_w32_coco_256x192_coarsedropout,10,"{'input_size': [[]], 'dim': [], 'keepdim': []}",8.943080902099609e-06
+#23,upernet_vit-b16_ln_mln_512x512_160k_ade20k,76,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.2199878692626954e-05
+#24,upernet_vit-b16_ln_mln_512x512_160k_ade20k,20,"{'input_size': [[2, 512, 512]], 'dim': [], 'keepdim': []}",8.995532989501952e-06
+#25,upernet_vit-b16_ln_mln_512x512_160k_ade20k,21,"{'input_size': [[512, 768, 1, 1]], 'dim': [], 'keepdim': []}",9.317398071289062e-06
+#26,upernet_vit-b16_ln_mln_512x512_160k_ade20k,166,"{'input_size': [[768]], 'dim': [], 'keepdim': []}",1.1975765228271484e-05
+#27,upernet_vit-b16_ln_mln_512x512_160k_ade20k,24,"{'input_size': [[2304, 768]], 'dim': [], 'keepdim': []}",9.2315673828125e-06
+#28,upernet_vit-b16_ln_mln_512x512_160k_ade20k,24,"{'input_size': [[2304]], 'dim': [], 'keepdim': []}",9.407997131347656e-06
+#29,upernet_vit-b16_ln_mln_512x512_160k_ade20k,24,"{'input_size': [[768, 768]], 'dim': [], 'keepdim': []}",1.2311935424804688e-05
+#30,upernet_vit-b16_ln_mln_512x512_160k_ade20k,24,"{'input_size': [[3072, 768]], 'dim': [], 'keepdim': []}",9.21010971069336e-06
+#31,upernet_vit-b16_ln_mln_512x512_160k_ade20k,24,"{'input_size': [[3072]], 'dim': [], 'keepdim': []}",1.2063980102539063e-05
+#32,upernet_vit-b16_ln_mln_512x512_160k_ade20k,24,"{'input_size': [[768, 3072]], 'dim': [], 'keepdim': []}",9.30309295654297e-06
+#33,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,16,"{'input_size': [[1536]], 'dim': [], 'keepdim': []}",9.305477142333985e-06
+#34,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,34,"{'input_size': [[96]], 'dim': [], 'keepdim': []}",1.2080669403076172e-05
+#35,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,12,"{'input_size': [[1152]], 'dim': [], 'keepdim': []}",1.1861324310302734e-05
+#36,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,60,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.350776672363281e-06
+#37,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,14,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",1.2583732604980469e-05
+#38,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,35,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",8.945465087890626e-06
+#39,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,50,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.3841552734375e-06
+#40,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,84,"{'input_size': [[384]], 'dim': [], 'keepdim': []}",9.050369262695313e-06
+#41,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,36,"{'input_size': [[768]], 'dim': [], 'keepdim': []}",1.512289047241211e-05
+#42,mask_rcnn_swin-t-p4-w7_fpn_1x_coco,28,"{'input_size': [[192]], 'dim': [], 'keepdim': []}",1.1911392211914063e-05
+#43,ssd300_coco,9,"{'input_size': [[24]], 'dim': [], 'keepdim': []}",1.7001628875732422e-05
+#44,ssd300_coco,10,"{'input_size': [[128, 256, 1, 1]], 'dim': [], 'keepdim': []}",9.493827819824219e-06
+#45,ssd300_coco,18,"{'input_size': [[256, 128, 3, 3]], 'dim': [], 'keepdim': []}",9.028911590576171e-06
+#46,ssd300_coco,9,"{'input_size': [[16]], 'dim': [], 'keepdim': []}",9.238719940185547e-06
+#47,ssd300_coco,21,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.407997131347656e-06
+#48,ssd300_coco,10,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.396076202392577e-06
+#49,ssd300_coco,15,"{'input_size': [[512, 512, 3, 3]], 'dim': [], 'keepdim': []}",9.341239929199219e-06
+#50,ssd300_coco,29,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.372234344482422e-06
+#51,ssd300_coco,10,"{'input_size': [[1]], 'dim': [], 'keepdim': []}",9.102821350097656e-06
+#52,ssd300_coco,29,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.2202262878417969e-05
+#53,resnet18_8xb16_cifar10,4,"{'input_size': [[64, 3, 3, 3]], 'dim': [], 'keepdim': []}",9.436607360839843e-06
+#54,resnet18_8xb16_cifar10,40,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.183032989501953e-05
+#55,resnet18_8xb16_cifar10,16,"{'input_size': [[64, 64, 3, 3]], 'dim': [], 'keepdim': []}",9.176731109619141e-06
+#56,resnet18_8xb16_cifar10,5,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.386539459228515e-06
+#57,resnet18_8xb16_cifar10,40,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.13381576538086e-06
+#58,resnet18_8xb16_cifar10,12,"{'input_size': [[128, 128, 3, 3]], 'dim': [], 'keepdim': []}",9.016990661621094e-06
+#59,resnet18_8xb16_cifar10,12,"{'input_size': [[512, 512, 3, 3]], 'dim': [], 'keepdim': []}",1.0089874267578125e-05
+#60,resnet18_8xb16_cifar10,40,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",0.00024652719497680664
+#61,resnet18_8xb16_cifar10,40,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.5764236450195314e-05
+#62,resnet18_8xb16_cifar10,12,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.4560222625732422e-05
+#63,vgg19bn_8xb32_cifar10,5,"{'input_size': [[64, 3, 3, 3]], 'dim': [], 'keepdim': []}",9.391307830810547e-06
+#64,vgg19bn_8xb32_cifar10,30,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.431838989257813e-06
+#65,vgg19bn_8xb32_cifar10,5,"{'input_size': [[64, 64, 3, 3]], 'dim': [], 'keepdim': []}",9.577274322509766e-06
+#66,vgg19bn_8xb32_cifar10,5,"{'input_size': [[128, 64, 3, 3]], 'dim': [], 'keepdim': []}",9.11712646484375e-06
+#67,vgg19bn_8xb32_cifar10,30,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",1.4493465423583984e-05
+#68,vgg19bn_8xb32_cifar10,10,"{'input_size': [[4096]], 'dim': [], 'keepdim': []}",9.88006591796875e-06
+#69,vgg19bn_8xb32_cifar10,35,"{'input_size': [[512, 512, 3, 3]], 'dim': [], 'keepdim': []}",9.434223175048828e-06
+#70,vgg19bn_8xb32_cifar10,60,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.073598861694336e-05
+#71,vgg19bn_8xb32_cifar10,15,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.2176036834716797e-05
+#72,vgg19bn_8xb32_cifar10,120,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.412765502929687e-06
+#73,faster_rcnn_r50_fpn_1x_coco,60,"{'input_size': [[]], 'dim': [], 'keepdim': []}",8.82863998413086e-06
+#74,faster_rcnn_r50_fpn_1x_coco,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.34600830078125e-06
+#75,faster_rcnn_r50_fpn_1x_coco,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",1.1930465698242187e-05
+#76,faster_rcnn_r50_fpn_1x_coco,33,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",9.04083251953125e-06
+#77,faster_rcnn_r50_fpn_1x_coco,18,"{'input_size': [[256, 1024, 1, 1]], 'dim': [], 'keepdim': []}",8.955001831054688e-06
+#78,faster_rcnn_r50_fpn_1x_coco,123,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.24825668334961e-06
+#79,faster_rcnn_r50_fpn_1x_coco,56,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",1.294851303100586e-05
+#80,faster_rcnn_r50_fpn_1x_coco,18,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",8.79526138305664e-06
+#81,faster_rcnn_r50_fpn_1x_coco,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",8.971691131591797e-06
+#82,faster_rcnn_r50_fpn_1x_coco,66,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.043216705322266e-06
+#83,mobilenet-v2_8xb32_cifar10,48,"{'input_size': [[576]], 'dim': [], 'keepdim': []}",8.766651153564454e-06
+#84,mobilenet-v2_8xb32_cifar10,42,"{'input_size': [[32]], 'dim': [], 'keepdim': []}",4.2331218719482425e-05
+#85,mobilenet-v2_8xb32_cifar10,16,"{'input_size': [[24]], 'dim': [], 'keepdim': []}",8.895397186279297e-06
+#86,mobilenet-v2_8xb32_cifar10,48,"{'input_size': [[192]], 'dim': [], 'keepdim': []}",9.181499481201171e-06
+#87,mobilenet-v2_8xb32_cifar10,24,"{'input_size': [[160]], 'dim': [], 'keepdim': []}",1.961946487426758e-05
+#88,mobilenet-v2_8xb32_cifar10,32,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.410381317138672e-06
+#89,mobilenet-v2_8xb32_cifar10,40,"{'input_size': [[96]], 'dim': [], 'keepdim': []}",1.748085021972656e-05
+#90,mobilenet-v2_8xb32_cifar10,64,"{'input_size': [[384]], 'dim': [], 'keepdim': []}",9.343624114990234e-06
+#91,mobilenet-v2_8xb32_cifar10,32,"{'input_size': [[144]], 'dim': [], 'keepdim': []}",1.199483871459961e-05
+#92,mobilenet-v2_8xb32_cifar10,48,"{'input_size': [[960]], 'dim': [], 'keepdim': []}",9.009838104248047e-06
+#93,seresnet50_8xb32_cifar10,104,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.319782257080079e-06
+#94,seresnet50_8xb32_cifar10,80,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",4.266023635864258e-05
+#95,seresnet50_8xb32_cifar10,76,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.34600830078125e-06
+#96,seresnet50_8xb32_cifar10,44,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",1.6238689422607422e-05
+#97,seresnet50_8xb32_cifar10,24,"{'input_size': [[1024, 64, 1, 1]], 'dim': [], 'keepdim': []}",9.479522705078125e-06
+#98,seresnet50_8xb32_cifar10,140,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.40084457397461e-06
+#99,seresnet50_8xb32_cifar10,24,"{'input_size': [[64, 1024, 1, 1]], 'dim': [], 'keepdim': []}",9.202957153320313e-06
+#100,seresnet50_8xb32_cifar10,24,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",9.160041809082032e-06
+#101,seresnet50_8xb32_cifar10,24,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.3482570648193359e-05
+#102,seresnet50_8xb32_cifar10,80,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",9.548664093017577e-06
+#103,deeplabv3_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[2, 512, 512]], 'dim': [], 'keepdim': []}",1.2218952178955078e-05
+#104,deeplabv3_r50-d8_512x512_80k_ade20k,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",1.2040138244628906e-05
+#105,deeplabv3_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.177072525024414e-05
+#106,deeplabv3_r50-d8_512x512_80k_ade20k,104,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.621246337890625e-05
+#107,deeplabv3_r50-d8_512x512_80k_ade20k,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.095668792724609e-06
+#108,deeplabv3_r50-d8_512x512_80k_ade20k,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.465217590332032e-06
+#109,deeplabv3_r50-d8_512x512_80k_ade20k,18,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",1.4383792877197265e-05
+#110,deeplabv3_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[1]], 'dim': [], 'keepdim': []}",9.357929229736328e-06
+#111,deeplabv3_r50-d8_512x512_80k_ade20k,102,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.2178421020507812e-05
+#112,deeplabv3_r50-d8_512x512_80k_ade20k,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",9.407997131347656e-06
+#113,efficientnet-b0_8xb32_cifar10,32,"{'input_size': [[192]], 'dim': [], 'keepdim': []}",9.064674377441407e-06
+#114,efficientnet-b0_8xb32_cifar10,20,"{'input_size': [[32]], 'dim': [], 'keepdim': []}",1.1987686157226563e-05
+#115,efficientnet-b0_8xb32_cifar10,24,"{'input_size': [[112]], 'dim': [], 'keepdim': []}",1.383066177368164e-05
+#116,efficientnet-b0_8xb32_cifar10,60,"{'input_size': [[672]], 'dim': [], 'keepdim': []}",9.100437164306641e-06
+#117,efficientnet-b0_8xb32_cifar10,24,"{'input_size': [[80]], 'dim': [], 'keepdim': []}",9.131431579589843e-06
+#118,efficientnet-b0_8xb32_cifar10,60,"{'input_size': [[480]], 'dim': [], 'keepdim': []}",1.2078285217285155e-05
+#119,efficientnet-b0_8xb32_cifar10,40,"{'input_size': [[144]], 'dim': [], 'keepdim': []}",1.199960708618164e-05
+#120,efficientnet-b0_8xb32_cifar10,40,"{'input_size': [[240]], 'dim': [], 'keepdim': []}",8.397102355957031e-06
+#121,efficientnet-b0_8xb32_cifar10,80,"{'input_size': [[1152]], 'dim': [], 'keepdim': []}",9.427070617675781e-06
+#122,efficientnet-b0_8xb32_cifar10,20,"{'input_size': [[96]], 'dim': [], 'keepdim': []}",1.6584396362304688e-05
+#123,swin-base_16xb64_cifar10,212,"{'input_size': [[1536]], 'dim': [], 'keepdim': []}",9.331703186035156e-06
+#124,swin-base_16xb64_cifar10,119,"{'input_size': [[96]], 'dim': [], 'keepdim': []}",9.305477142333985e-06
+#125,swin-base_16xb64_cifar10,198,"{'input_size': [[1536, 384]], 'dim': [], 'keepdim': []}",1.5239715576171875e-05
+#126,swin-base_16xb64_cifar10,180,"{'input_size': [[384, 384]], 'dim': [], 'keepdim': []}",9.684562683105468e-06
+#127,swin-base_16xb64_cifar10,180,"{'input_size': [[1152]], 'dim': [], 'keepdim': []}",9.357929229736328e-06
+#128,swin-base_16xb64_cifar10,180,"{'input_size': [[1152, 384]], 'dim': [], 'keepdim': []}",1.744985580444336e-05
+#129,swin-base_16xb64_cifar10,180,"{'input_size': [[169, 12]], 'dim': [], 'keepdim': []}",9.05752182006836e-06
+#130,swin-base_16xb64_cifar10,972,"{'input_size': [[384]], 'dim': [], 'keepdim': []}",8.974075317382813e-06
+#131,swin-base_16xb64_cifar10,180,"{'input_size': [[384, 1536]], 'dim': [], 'keepdim': []}",1.3659000396728515e-05
+#132,swin-base_16xb64_cifar10,148,"{'input_size': [[768]], 'dim': [], 'keepdim': []}",9.28640365600586e-06
+#133,fcn_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[2, 512, 512]], 'dim': [], 'keepdim': []}",4.0009021759033204e-05
+#134,fcn_r50-d8_512x512_80k_ade20k,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",9.381771087646485e-06
+#135,fcn_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.415149688720704e-06
+#136,fcn_r50-d8_512x512_80k_ade20k,86,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.410381317138672e-06
+#137,fcn_r50-d8_512x512_80k_ade20k,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",8.9263916015625e-06
+#138,fcn_r50-d8_512x512_80k_ade20k,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",8.947849273681641e-06
+#139,fcn_r50-d8_512x512_80k_ade20k,18,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",9.453296661376953e-06
+#140,fcn_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[1]], 'dim': [], 'keepdim': []}",1.36566162109375e-05
+#141,fcn_r50-d8_512x512_80k_ade20k,102,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.2006759643554687e-05
+#142,fcn_r50-d8_512x512_80k_ade20k,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",1.800060272216797e-05
+#143,solo_r50_fpn_1x_coco,12,"{'input_size': [[256, 64, 1, 1]], 'dim': [], 'keepdim': []}",9.388923645019532e-06
+#144,solo_r50_fpn_1x_coco,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.441375732421875e-06
+#145,solo_r50_fpn_1x_coco,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",8.895397186279297e-06
+#146,solo_r50_fpn_1x_coco,95,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.205921173095703e-05
+#147,solo_r50_fpn_1x_coco,18,"{'input_size': [[256, 1024, 1, 1]], 'dim': [], 'keepdim': []}",9.357929229736328e-06
+#148,solo_r50_fpn_1x_coco,266,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.028911590576171e-06
+#149,solo_r50_fpn_1x_coco,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",8.928775787353516e-06
+#150,solo_r50_fpn_1x_coco,18,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",8.988380432128907e-06
+#151,solo_r50_fpn_1x_coco,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",8.864402770996094e-06
+#152,solo_r50_fpn_1x_coco,66,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",8.842945098876954e-06
+#153,vit-base-p16_pt-64xb64_cifar10-224,4,"{'input_size': [[1000]], 'dim': [], 'keepdim': []}",9.005069732666016e-06
+#154,vit-base-p16_pt-64xb64_cifar10-224,4,"{'input_size': [[1000, 3072]], 'dim': [], 'keepdim': []}",8.783340454101563e-06
+#155,vit-base-p16_pt-64xb64_cifar10-224,5,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.2540817260742188e-05
+#156,vit-base-p16_pt-64xb64_cifar10-224,406,"{'input_size': [[768]], 'dim': [], 'keepdim': []}",9.326934814453124e-06
+#157,vit-base-p16_pt-64xb64_cifar10-224,72,"{'input_size': [[2304, 768]], 'dim': [], 'keepdim': []}",9.12189483642578e-06
+#158,vit-base-p16_pt-64xb64_cifar10-224,72,"{'input_size': [[2304]], 'dim': [], 'keepdim': []}",9.455680847167968e-06
+#159,vit-base-p16_pt-64xb64_cifar10-224,72,"{'input_size': [[768, 768]], 'dim': [], 'keepdim': []}",1.216411590576172e-05
+#160,vit-base-p16_pt-64xb64_cifar10-224,100,"{'input_size': [[3072, 768]], 'dim': [], 'keepdim': []}",9.365081787109375e-06
+#161,vit-base-p16_pt-64xb64_cifar10-224,100,"{'input_size': [[3072]], 'dim': [], 'keepdim': []}",9.245872497558594e-06
+#162,vit-base-p16_pt-64xb64_cifar10-224,84,"{'input_size': [[768, 3072]], 'dim': [], 'keepdim': []}",9.274482727050781e-06
+#163,sar_r31_parallel_decoder_toy_dataset,126,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.21010971069336e-06
+#164,sar_r31_parallel_decoder_toy_dataset,12,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.4519691467285156e-05
+#165,sar_r31_parallel_decoder_toy_dataset,6,"{'input_size': [[512, 512]], 'dim': [], 'keepdim': []}",1.1966228485107421e-05
+#166,sar_r31_parallel_decoder_toy_dataset,12,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.391307830810547e-06
+#167,sar_r31_parallel_decoder_toy_dataset,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",9.298324584960938e-06
+#168,sar_r31_parallel_decoder_toy_dataset,33,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",9.396076202392577e-06
+#169,sar_r31_parallel_decoder_toy_dataset,94,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.047985076904298e-06
+#170,sar_r31_parallel_decoder_toy_dataset,24,"{'input_size': [[2048, 512]], 'dim': [], 'keepdim': []}",8.912086486816407e-06
+#171,sar_r31_parallel_decoder_toy_dataset,85,"{'input_size': [[512, 512, 3, 3]], 'dim': [], 'keepdim': []}",9.348392486572266e-06
+#172,sar_r31_parallel_decoder_toy_dataset,202,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.36269760131836e-06
+#173,centernet_resnet18_140e_coco,4,"{'input_size': [[2]], 'dim': [], 'keepdim': []}",8.971691131591797e-06
+#174,centernet_resnet18_140e_coco,44,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.2035369873046874e-05
+#175,centernet_resnet18_140e_coco,18,"{'input_size': [[64, 64, 3, 3]], 'dim': [], 'keepdim': []}",8.950233459472656e-06
+#176,centernet_resnet18_140e_coco,60,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.199483871459961e-05
+#177,centernet_resnet18_140e_coco,38,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",1.2598037719726563e-05
+#178,centernet_resnet18_140e_coco,9,"{'input_size': [[128, 128, 3, 3]], 'dim': [], 'keepdim': []}",9.412765502929687e-06
+#179,centernet_resnet18_140e_coco,9,"{'input_size': [[512, 512, 3, 3]], 'dim': [], 'keepdim': []}",9.446144104003906e-06
+#180,centernet_resnet18_140e_coco,30,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.3790130615234376e-05
+#181,centernet_resnet18_140e_coco,38,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.1932849884033202e-05
+#182,centernet_resnet18_140e_coco,9,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.6655921936035156e-05
+#183,detr_r50_8x2_150e_coco,180,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.474754333496094e-06
+#184,detr_r50_8x2_150e_coco,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.424686431884766e-06
+#185,detr_r50_8x2_150e_coco,36,"{'input_size': [[768, 256]], 'dim': [], 'keepdim': []}",9.453296661376953e-06
+#186,detr_r50_8x2_150e_coco,40,"{'input_size': [[256, 256]], 'dim': [], 'keepdim': []}",1.6205310821533203e-05
+#187,detr_r50_8x2_150e_coco,48,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",9.365081787109375e-06
+#188,detr_r50_8x2_150e_coco,286,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.8851757049560545e-05
+#189,detr_r50_8x2_150e_coco,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",8.802413940429688e-06
+#190,detr_r50_8x2_150e_coco,60,"{'input_size': [[100, 4]], 'dim': [[-1]], 'keepdim': []}",9.272098541259766e-06
+#191,detr_r50_8x2_150e_coco,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.188652038574219e-06
+#192,detr_r50_8x2_150e_coco,66,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.2061595916748048e-05
+#193,repvgg-A0_4xb64-coslr-120e_cifar10,36,"{'input_size': [[1280]], 'dim': [], 'keepdim': []}",1.18255615234375e-05
+#194,repvgg-A0_4xb64-coslr-120e_cifar10,112,"{'input_size': [[48]], 'dim': [], 'keepdim': []}",9.014606475830079e-06
+#195,repvgg-A0_4xb64-coslr-120e_cifar10,117,"{'input_size': [[192, 192, 1, 1]], 'dim': [], 'keepdim': []}",8.950233459472656e-06
+#196,repvgg-A0_4xb64-coslr-120e_cifar10,18,"{'input_size': [[48, 48, 3, 3]], 'dim': [], 'keepdim': []}",1.383066177368164e-05
+#197,repvgg-A0_4xb64-coslr-120e_cifar10,20,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.1448860168457032e-05
+#198,repvgg-A0_4xb64-coslr-120e_cifar10,117,"{'input_size': [[192, 192, 3, 3]], 'dim': [], 'keepdim': []}",9.317398071289062e-06
+#199,repvgg-A0_4xb64-coslr-120e_cifar10,192,"{'input_size': [[96]], 'dim': [], 'keepdim': []}",1.2528896331787109e-05
+#200,repvgg-A0_4xb64-coslr-120e_cifar10,712,"{'input_size': [[192]], 'dim': [], 'keepdim': []}",1.193523406982422e-05
+#201,repvgg-A0_4xb64-coslr-120e_cifar10,27,"{'input_size': [[96, 96, 3, 3]], 'dim': [], 'keepdim': []}",1.199960708618164e-05
+#202,repvgg-A0_4xb64-coslr-120e_cifar10,27,"{'input_size': [[96, 96, 1, 1]], 'dim': [], 'keepdim': []}",8.902549743652345e-06
+#203,mask_rcnn_r50_fpn_1x_coco,60,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.1552734375e-06
+#204,mask_rcnn_r50_fpn_1x_coco,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.695394515991211e-05
+#205,mask_rcnn_r50_fpn_1x_coco,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",9.253025054931641e-06
+#206,mask_rcnn_r50_fpn_1x_coco,53,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",9.005069732666016e-06
+#207,mask_rcnn_r50_fpn_1x_coco,18,"{'input_size': [[256, 1024, 1, 1]], 'dim': [], 'keepdim': []}",1.138448715209961e-05
+#208,mask_rcnn_r50_fpn_1x_coco,146,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",5.151987075805664e-05
+#209,mask_rcnn_r50_fpn_1x_coco,56,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",1.4009475708007812e-05
+#210,mask_rcnn_r50_fpn_1x_coco,18,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",1.209259033203125e-05
+#211,mask_rcnn_r50_fpn_1x_coco,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",1.3551712036132813e-05
+#212,mask_rcnn_r50_fpn_1x_coco,66,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.7149448394775392e-05
+#213,densenet121_4xb256_cifar10,8,"{'input_size': [[320]], 'dim': [], 'keepdim': []}",9.102821350097656e-06
+#214,densenet121_4xb256_cifar10,8,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.2121200561523438e-05
+#215,densenet121_4xb256_cifar10,8,"{'input_size': [[288]], 'dim': [], 'keepdim': []}",1.2156963348388672e-05
+#216,densenet121_4xb256_cifar10,240,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",1.214742660522461e-05
+#217,densenet121_4xb256_cifar10,116,"{'input_size': [[32, 128, 3, 3]], 'dim': [], 'keepdim': []}",8.92162322998047e-06
+#218,densenet121_4xb256_cifar10,8,"{'input_size': [[224]], 'dim': [], 'keepdim': []}",9.119510650634766e-06
+#219,densenet121_4xb256_cifar10,12,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.1951923370361329e-05
+#220,densenet121_4xb256_cifar10,8,"{'input_size': [[192]], 'dim': [], 'keepdim': []}",8.98599624633789e-06
+#221,densenet121_4xb256_cifar10,8,"{'input_size': [[160]], 'dim': [], 'keepdim': []}",1.2633800506591797e-05
+#222,densenet121_4xb256_cifar10,12,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.34600830078125e-06
+#223,deeplabv3plus_r50-d8_512x512_80k_ade20k,21,"{'input_size': [[512, 2048, 1, 1]], 'dim': [], 'keepdim': []}",1.1932849884033202e-05
+#224,deeplabv3plus_r50-d8_512x512_80k_ade20k,42,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",1.3794898986816406e-05
+#225,deeplabv3plus_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[2, 512, 512]], 'dim': [], 'keepdim': []}",1.2116432189941406e-05
+#226,deeplabv3plus_r50-d8_512x512_80k_ade20k,122,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",8.959770202636718e-06
+#227,deeplabv3plus_r50-d8_512x512_80k_ade20k,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.13858413696289e-06
+#228,deeplabv3plus_r50-d8_512x512_80k_ade20k,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",1.2543201446533203e-05
+#229,deeplabv3plus_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[1]], 'dim': [], 'keepdim': []}",9.338855743408204e-06
+#230,deeplabv3plus_r50-d8_512x512_80k_ade20k,40,"{'input_size': [[]], 'dim': [], 'keepdim': []}",8.99791717529297e-06
+#231,deeplabv3plus_r50-d8_512x512_80k_ade20k,102,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.305477142333985e-06
+#232,deeplabv3plus_r50-d8_512x512_80k_ade20k,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",9.319782257080079e-06
+#233,cascade_rcnn_r50_fpn_1x_coco,24,"{'input_size': [[81, 1024]], 'dim': [], 'keepdim': []}",9.436607360839843e-06
+#234,cascade_rcnn_r50_fpn_1x_coco,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.276866912841796e-06
+#235,cascade_rcnn_r50_fpn_1x_coco,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",9.341239929199219e-06
+#236,cascade_rcnn_r50_fpn_1x_coco,33,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.2593269348144531e-05
+#237,cascade_rcnn_r50_fpn_1x_coco,24,"{'input_size': [[4, 1024]], 'dim': [], 'keepdim': []}",9.274482727050781e-06
+#238,cascade_rcnn_r50_fpn_1x_coco,123,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.331703186035156e-06
+#239,cascade_rcnn_r50_fpn_1x_coco,90,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",9.255409240722656e-06
+#240,cascade_rcnn_r50_fpn_1x_coco,80,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.355545043945313e-06
+#241,cascade_rcnn_r50_fpn_1x_coco,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.336471557617187e-06
+#242,cascade_rcnn_r50_fpn_1x_coco,66,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.1949539184570312e-05
+#243,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,20,"{'input_size': [[1, 2048, 32, 16, 16]], 'dim': [[2]], 'keepdim': []}",1.2030601501464844e-05
+#244,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,20,"{'input_size': [[1, 256, 32, 16, 16]], 'dim': [[2]], 'keepdim': []}",1.199483871459961e-05
+#245,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,6,"{'input_size': [[7]], 'dim': [], 'keepdim': []}",9.374618530273438e-06
+#246,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,12,"{'input_size': [[5]], 'dim': [], 'keepdim': []}",1.1875629425048829e-05
+#247,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,140,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.1780261993408202e-05
+#248,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,24,"{'input_size': [[4]], 'dim': [], 'keepdim': []}",1.2023448944091797e-05
+#249,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,6,"{'input_size': [[6]], 'dim': [], 'keepdim': []}",8.88824462890625e-06
+#250,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,60,"{'input_size': [[2]], 'dim': [], 'keepdim': []}",1.178741455078125e-05
+#251,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,10,"{'input_size': [[2, 80]], 'dim': [], 'keepdim': []}",1.207590103149414e-05
+#252,slowfast_context_kinetics_pretrained_r50_4x16x1_20e_ava_rgb,12,"{'input_size': [[3]], 'dim': [], 'keepdim': []}",9.016990661621094e-06
+#253,tsn_r50_1x1x3_75e_ucf101_rgb,75,"{'input_size': [[16, 3, 2048, 1, 1]], 'dim': [], 'keepdim': []}",8.950233459472656e-06
+#254,tsn_r50_1x1x3_75e_ucf101_rgb,225,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.193523406982422e-05
+#255,dbnet_r18_fpnc_1200e_icdar2015,34,"{'input_size': [[64, 256, 3, 3]], 'dim': [], 'keepdim': []}",9.355545043945313e-06
+#256,dbnet_r18_fpnc_1200e_icdar2015,80,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.2066364288330078e-05
+#257,dbnet_r18_fpnc_1200e_icdar2015,12,"{'input_size': [[64, 64, 3, 3]], 'dim': [], 'keepdim': []}",9.455680847167968e-06
+#258,dbnet_r18_fpnc_1200e_icdar2015,30,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.230478286743164e-05
+#259,dbnet_r18_fpnc_1200e_icdar2015,30,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.319782257080079e-06
+#260,dbnet_r18_fpnc_1200e_icdar2015,10,"{'input_size': [[1]], 'dim': [], 'keepdim': []}",9.436607360839843e-06
+#261,dbnet_r18_fpnc_1200e_icdar2015,10,"{'input_size': [[64, 1, 2, 2]], 'dim': [], 'keepdim': []}",5.1207542419433594e-05
+#262,dbnet_r18_fpnc_1200e_icdar2015,30,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.2218952178955078e-05
+#263,dbnet_r18_fpnc_1200e_icdar2015,30,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.696483612060547e-06
+#264,dbnet_r18_fpnc_1200e_icdar2015,10,"{'input_size': [[64, 64, 2, 2]], 'dim': [], 'keepdim': []}",9.441375732421875e-06
+#265,pspnet_unet_s5-d16_128x128_40k_chase_db1,32,"{'input_size': [[16]], 'dim': [], 'keepdim': []}",1.0294914245605469e-05
+#266,pspnet_unet_s5-d16_128x128_40k_chase_db1,46,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.503364562988281e-06
+#267,pspnet_unet_s5-d16_128x128_40k_chase_db1,20,"{'input_size': [[1]], 'dim': [], 'keepdim': []}",9.21487808227539e-06
+#268,pspnet_unet_s5-d16_128x128_40k_chase_db1,20,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.164810180664062e-06
+#269,pspnet_unet_s5-d16_128x128_40k_chase_db1,40,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.083747863769532e-06
+#270,pspnet_unet_s5-d16_128x128_40k_chase_db1,20,"{'input_size': [[2, 128, 128]], 'dim': [], 'keepdim': []}",9.372234344482422e-06
+#271,pspnet_unet_s5-d16_128x128_40k_chase_db1,12,"{'input_size': [[16, 64, 1, 1]], 'dim': [], 'keepdim': []}",1.1954307556152344e-05
+#272,pspnet_unet_s5-d16_128x128_40k_chase_db1,40,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.2507438659667969e-05
+#273,pspnet_unet_s5-d16_128x128_40k_chase_db1,16,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",1.2054443359375e-05
+#274,pspnet_unet_s5-d16_128x128_40k_chase_db1,40,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.381771087646485e-06
+#275,crnn_toy_dataset,5,"{'input_size': [[64, 1, 3, 3]], 'dim': [], 'keepdim': []}",1.1394023895263672e-05
+#276,crnn_toy_dataset,5,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.2230873107910156e-05
+#277,crnn_toy_dataset,5,"{'input_size': [[128, 64, 3, 3]], 'dim': [], 'keepdim': []}",1.2094974517822265e-05
+#278,crnn_toy_dataset,5,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",1.1484622955322266e-05
+#279,crnn_toy_dataset,315,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.190185546875e-05
+#280,crnn_toy_dataset,24,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.019374847412109e-06
+#281,crnn_toy_dataset,24,"{'input_size': [[1024, 256]], 'dim': [], 'keepdim': []}",9.357929229736328e-06
+#282,crnn_toy_dataset,8,"{'input_size': [[1024, 512]], 'dim': [], 'keepdim': []}",9.493827819824219e-06
+#283,crnn_toy_dataset,35,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.208782196044922e-05
+#284,crnn_toy_dataset,32,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",8.98599624633789e-06
+#285,res50_coco_256x192,10,"{'input_size': [[]], 'dim': [], 'keepdim': []}",8.978843688964843e-06
+#286,atss_r50_fpn_1x_coco,90,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.3484954833984376e-05
+#287,atss_r50_fpn_1x_coco,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.105205535888671e-06
+#288,atss_r50_fpn_1x_coco,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",8.902549743652345e-06
+#289,atss_r50_fpn_1x_coco,57,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.6999244689941406e-05
+#290,atss_r50_fpn_1x_coco,18,"{'input_size': [[256, 1024, 1, 1]], 'dim': [], 'keepdim': []}",1.216888427734375e-05
+#291,atss_r50_fpn_1x_coco,168,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.069442749023437e-06
+#292,atss_r50_fpn_1x_coco,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",8.92162322998047e-06
+#293,atss_r50_fpn_1x_coco,18,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",9.381771087646485e-06
+#294,atss_r50_fpn_1x_coco,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.019374847412109e-06
+#295,atss_r50_fpn_1x_coco,66,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.448528289794922e-06
+#296,fcos_r50_caffe_fpn_gn-head_1x_coco,75,"{'input_size': [[]], 'dim': [], 'keepdim': []}",1.2578964233398437e-05
+#297,fcos_r50_caffe_fpn_gn-head_1x_coco,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.2514591217041016e-05
+#298,fcos_r50_caffe_fpn_gn-head_1x_coco,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",1.1904239654541016e-05
+#299,fcos_r50_caffe_fpn_gn-head_1x_coco,57,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.1899471282958984e-05
+#300,fcos_r50_caffe_fpn_gn-head_1x_coco,18,"{'input_size': [[256, 1024, 1, 1]], 'dim': [], 'keepdim': []}",1.2085437774658203e-05
+#301,fcos_r50_caffe_fpn_gn-head_1x_coco,168,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",9.396076202392577e-06
+#302,fcos_r50_caffe_fpn_gn-head_1x_coco,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",9.059906005859375e-06
+#303,fcos_r50_caffe_fpn_gn-head_1x_coco,18,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",1.2049674987792969e-05
+#304,fcos_r50_caffe_fpn_gn-head_1x_coco,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.307861328125e-06
+#305,fcos_r50_caffe_fpn_gn-head_1x_coco,66,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",1.12152099609375e-05
+#306,upernet_r50_512x512_80k_ade20k,18,"{'input_size': [[512, 512, 3, 3]], 'dim': [], 'keepdim': []}",1.2161731719970703e-05
+#307,upernet_r50_512x512_80k_ade20k,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",8.928775787353516e-06
+#308,upernet_r50_512x512_80k_ade20k,40,"{'input_size': [[1]], 'dim': [], 'keepdim': []}",9.305477142333985e-06
+#309,upernet_r50_512x512_80k_ade20k,142,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.28640365600586e-06
+#310,upernet_r50_512x512_80k_ade20k,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",9.076595306396484e-06
+#311,upernet_r50_512x512_80k_ade20k,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",1.1992454528808593e-05
+#312,upernet_r50_512x512_80k_ade20k,40,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.07421112060547e-06
+#313,upernet_r50_512x512_80k_ade20k,40,"{'input_size': [[2, 512, 512]], 'dim': [], 'keepdim': []}",9.405612945556641e-06
+#314,upernet_r50_512x512_80k_ade20k,102,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.360177993774414e-05
+#315,upernet_r50_512x512_80k_ade20k,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",1.1937618255615234e-05
+#316,retinanet_r50_fpn_1x_coco,50,"{'input_size': [[]], 'dim': [], 'keepdim': []}",9.486675262451172e-06
+#317,retinanet_r50_fpn_1x_coco,42,"{'input_size': [[64]], 'dim': [], 'keepdim': []}",1.346588134765625e-05
+#318,retinanet_r50_fpn_1x_coco,24,"{'input_size': [[2048]], 'dim': [], 'keepdim': []}",1.2133121490478516e-05
+#319,retinanet_r50_fpn_1x_coco,54,"{'input_size': [[256, 256, 3, 3]], 'dim': [], 'keepdim': []}",1.208782196044922e-05
+#320,retinanet_r50_fpn_1x_coco,18,"{'input_size': [[256, 1024, 1, 1]], 'dim': [], 'keepdim': []}",9.024143218994141e-06
+#321,retinanet_r50_fpn_1x_coco,144,"{'input_size': [[256]], 'dim': [], 'keepdim': []}",1.4786720275878907e-05
+#322,retinanet_r50_fpn_1x_coco,42,"{'input_size': [[1024]], 'dim': [], 'keepdim': []}",9.102821350097656e-06
+#323,retinanet_r50_fpn_1x_coco,18,"{'input_size': [[1024, 256, 1, 1]], 'dim': [], 'keepdim': []}",8.924007415771484e-06
+#324,retinanet_r50_fpn_1x_coco,48,"{'input_size': [[128]], 'dim': [], 'keepdim': []}",9.517669677734375e-06
+#325,retinanet_r50_fpn_1x_coco,66,"{'input_size': [[512]], 'dim': [], 'keepdim': []}",9.515285491943359e-06
